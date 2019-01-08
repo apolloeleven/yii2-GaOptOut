@@ -8,12 +8,10 @@
 
 namespace apollo11\yii2GaOptOut;
 
-use yii\web\AssetBundle;
-
-class Assets extends AssetBundle
+class AssetBundle extends \yii\web\AssetBundle
 {
-    public $sourcePath ='@npm-assets/gaopout';
-    public $js=[
+    public $sourcePath = '@npm/gaoptout';
+    public $js = [
         'ApGaOptOut.js'
     ];
 }

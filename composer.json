@@ -1,6 +1,6 @@
 {
-  "name": "apolloeleven/yii2-ga-opt-out",
-  "version": "0.0.1",
+  "name": "apollo11/yii2-gaoptout",
+  "version": "1.0.0",
   "authors": [
     {
       "name": "Levan Khvedelidze",
@@ -9,7 +9,6 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    "composer/composer":">=1.6.3",
     "npm-asset/gaoptout": "*",
     "yiisoft/yii2": "~2.0.0",
     "yiisoft/yii2-httpclient": "~2.0.0"

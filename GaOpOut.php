@@ -25,6 +25,9 @@ class GaOpOut extends Widget
     //element selector with link to jsoutput
     public $elementSelector = '[href="#jsgaoptout"]';
 
+    //Alert message on disable
+    public $alertMessage = 'Google Analytics tracking has been deactivated in your browser for this website.';
+
     /**
      * @var bool
      */
@@ -41,7 +44,8 @@ class GaOpOut extends Widget
                 optOutCallEvent: '{$this->optOutCallEvent}',
                 elementSelector: '{$this->elementSelector}',
                 debug: " . ($this->debug ? 'true' : 'false') . ",
-                showAlterAfterDeactivate: " . ($this->showAlterAfterDeactivate ? 'true' : 'false') . "
+                showAlterAfterDeactivate: " . ($this->showAlterAfterDeactivate ? 'true' : 'false') . ",
+                alterMessage: '{$this->alertMessage}'
             });
         ");
     }

@@ -9,7 +9,7 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    "npm-asset/gaoptout": "*",
+    "npm-asset/gaoptout": "^1.0.0",
     "yiisoft/yii2": "~2.0.0",
     "yiisoft/yii2-httpclient": "~2.0.0"
   },

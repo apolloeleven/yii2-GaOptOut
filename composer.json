@@ -9,7 +9,7 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    "npm-asset/gaoptout": "^1.0.0",
+    "npm-asset/gaoptout": "^1.0.1",
     "yiisoft/yii2": "~2.0.0"
   },
   "autoload": {
